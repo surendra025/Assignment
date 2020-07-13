@@ -1,0 +1,509 @@
+body{
+    background-color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.box{
+    position: absolute;
+    right: 0px;
+    margin: 120px 330px ;
+    max-width: 400px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-top:10px;
+    border: 1.2px solid gray;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#login{
+    text-align: center;
+    width: 230px; 
+}
+
+.details{
+   /* height: 30px;*/
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 0px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+.details:hover{
+  transition: 0.6s ease;
+  background-color: white;
+  
+}
+
+.button{
+    width: 90%;
+    height: 45px;
+    color: white;
+    background-color: rgb(137, 201, 238);
+    border-radius: 10px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.6s ease;
+}
+
+.button:hover{
+  /*  background-color: lightsalmon ;*/
+    color: black; 
+    background-color: mediumseagreen;
+    opacity: 0.8;
+}
+
+#image{
+    float: left;
+    margin-top: 6%;
+    margin-bottom: 0%;
+    margin-left: 12%;
+    margin-right: 25px;   
+}
+
+#img3{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 50%;   
+}
+
+/*-----------main page css---------------*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.541),rgba(0,0,0,0.7)), url(./images/image5.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: bottom;
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease-in;
+}
+ul li a:hover{
+  background-color: white;
+  color: black;
+  opacity: 0.9;
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+
+
+.logo img{
+  float: left;
+  width: 150px;
+  height: auto;
+}
+
+.nav{
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.name{
+  position: absolute;
+  top: 49%;
+  left: 3%;
+  transform: translate(-50,-50);
+}
+.name h4{
+  color: white;
+  font-size: 22px;
+  font-family: airial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name h2{
+  color: salmon;
+  font-size: 30px;
+  font-family: airial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.title{
+  position: absolute;
+  top: 33%;
+  left: 43%;
+  transform: translate(-50,-50);
+}
+
+.title h1{
+  color: white;
+  font-size: 40px;
+  font-family: airial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*________________________Second part*________________________________*/
+
+.secondpart{
+  
+  background-color: rgba(0, 0, 0, 0.7);
+  color: orange;
+  
+}
+
+.secondpart h6{
+  text-align: center;
+  color: orange;
+  font-family: arial;
+  font-size: larger;
+  max-width: unset;
+}
+
+.line{
+  font-size: small;
+  color: darkgray;
+  line-height: 1.6;
+  text-indent: 530px;
+}
+
+.secondpart h4{
+  text-indent: 530px;
+  color: white;
+}
+
+
+
+
+/*________________________Third part*________________________________*/
+
+
+.thirdpart{
+  
+  background-color: rgba(37, 37, 37, 0.911);
+  color: orange;
+
+}
+
+.thirdpart h6{
+  text-align: center;
+  color: orange;
+  font-family: arial;
+  font-size: larger;
+}
+
+.size{
+  color: darkgray;
+  font-size: small;
+}
+
+/*________________________box part*________________________________*/
+
+#box1{
+  margin: 10px 10px 30px 180px;
+  padding: 60px 10px 10px 10px;
+  border: 1px solid transparent;
+  height: 230px;
+  width: 250px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 2.1;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box1:hover{
+  transform: scale(1.1); 
+  border-bottom-color: orange;
+  transition: 0.6s ease;
+}
+
+#box2{
+  margin: 10px 10px 30px 100px;
+  padding: 60px 10px 10px 10px;
+  border: 1px solid transparent;
+  height: 210px;
+  width: 250px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 2.1;
+  background-color: rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box2:hover{
+  transform: scale(1.1); 
+  border-bottom-color: orange;
+  transition: 0.6s ease;
+
+}
+
+#box3{
+  margin: 10px 10px 30px 100px;
+  padding: 60px 10px 10px 10px;
+  border: 1px solid transparent;
+  height: 210px;
+  width: 250px;
+  border-radius: 5px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 2.1;
+  background-color: rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#box3:hover{
+  transform: scale(1.1); 
+  border-bottom-color: orange;
+  transition: 0.6s ease;
+
+}
+
+
+/*_______________________________fourth part___________________________________*/
+
+.fourthpart{
+  
+  background-color: rgba(0, 0, 0, 0.7);
+  color: orange;
+}
+
+.fourthpart h6{
+  text-align: center;
+  color: orange;
+  font-family: arial;
+  font-size: larger;
+  max-width: unset;
+}
+
+/*____________________________________tech box_____________________________*/
+
+.techbox1{
+  margin: 15px -115px 0px 150px;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid transparent;
+  border-radius: 20px ;
+  width: 300px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.39);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-size: medium; 
+}
+
+.techbox1:hover{
+  transform: scale(1.2); 
+  border-bottom-color: orange;
+  border-top-color: orange;
+  transition: 0.6s ease;
+}
+
+/*______________________________________Fifth Part___________________________________________*/
+
+.fifthpart{
+  
+  background-color: rgba(37, 37, 37, 0.911);
+  color: orange;
+
+}
+
+.fifthpart h6{
+  text-align: center;
+  color: orange;
+  font-family: arial;
+  font-size: larger;
+}
+
+.size{
+  color: darkgray;
+  font-size: small;
+  
+}
+
+/*_______________________________________________project Box_____________________________________*/
+
+#projectbox1{
+  margin: 10px 10px 30px 150px;
+  padding: 60px 22px 10px 22px;
+  border: 1px solid transparent;
+  height: 250px;
+  width: 220px;
+  border-radius: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 2.1;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#projectbox1:hover{
+  transform: scale(1.2); 
+  border-bottom-color: orange;
+  border-top-color: orange;
+  transition: 0.6s ease;
+}
+
+#projectbox2{
+  margin: 10px 10px 30px  30px;
+  padding: 60px 30px 10px 10px;
+  border: 1px solid transparent;
+  height: 210px;
+  width: 420px;
+  border-radius: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 2.1;
+  background-color: rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#projectbox2:hover{
+  transform: scale(1.2); 
+  border-bottom-color: orange;
+  border-top-color: orange;
+  transition: 0.6s ease;
+
+}
+
+#projectbox3{
+  margin: 10px 10px 30px 30px;
+  padding: 60px 20px 10px 30px;
+  border: 1px solid transparent;
+  height: 250px;
+  width: 350px;
+  border-radius: 100px;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  line-height: 2.1;
+  background-color: rgba(0,0,0,0.2);
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#projectbox3:hover{
+  transform: scale(1.2); 
+  border-bottom-color: orange;
+  border-top-color: orange;
+  transition: 0.6s ease;
+
+}
+
+/*______________________________________sixth Part______________________________________*/
+
+.sixthpart{
+  
+  background-color: rgba(0, 0, 0, 0.7);
+  color: orange;
+}
+
+.sixthpart h6{
+  text-align: center;
+  color: orange;
+  font-family: arial;
+  font-size: larger;
+  max-width: unset;
+}
+
+
+/*_______________________________________certificate Box__________________________________*/
+
+
+.certificate{
+  margin: 15px -80px 10px 190px;
+  padding: 20px 10px 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 20px ;
+  width: 420px;
+  height: 60px;
+  display: inline-block;
+  color: white;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0.39);
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-size: medium; 
+}
+
+.certificate:hover{
+  transform: scale(1.2); 
+  border-bottom-color: orange;
+  border-top-color: orange;
+  transition: 0.6s ease;
+}
+
+.footer{
+  
+  color: rgb(158, 158, 158);
+  text-align: center;
+   position: relative;
+   
+}
+
+.footer .footerbottom{
+  height: 50px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+#top{
+  text-align: center;
+  border: 1px solid transparent;
+  margin: 10px 10px 10px 620px;
+  padding: 10px 10px 10px 10px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.39);
+ 
+}
+
+#top a{
+  color: orange;
+  text-decoration: none;
+}
+
+
